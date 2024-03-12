@@ -37,15 +37,21 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+
+    // Object detection & tracking feature
+    //implementation("com.google.mlkit:object-detection-custom:17.0.1")
+    //implementation("com.google.mlkit:object-detection:17.0.1")
+
+    //image classification
+    implementation("com.google.mlkit:image-labeling:17.0.5")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
         //added by me
 
 
-    // Object detection & tracking feature
-    implementation("com.google.mlkit:object-detection-custom:17.0.1")
-    implementation("com.google.mlkit:object-detection:17.0.1")
+
 
 }
 
