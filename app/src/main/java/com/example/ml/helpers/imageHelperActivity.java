@@ -33,6 +33,8 @@ import java.util.List;
 public class imageHelperActivity extends AppCompatActivity {
     private ImageView inputImageView;
 
+
+
     private TextView outputTextView;
 
     private int REQUEST_PICK_IMAGE =1000;

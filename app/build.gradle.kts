@@ -43,7 +43,7 @@ dependencies {
     //implementation("com.google.mlkit:object-detection:17.0.1")
 
     //image classification
-    implementation("com.google.mlkit:image-labeling:17.0.5")
+    implementation("com.google.mlkit:image-labeling:17.0.8")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
